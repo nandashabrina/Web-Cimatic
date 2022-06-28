@@ -1,0 +1,782 @@
+body{
+    font-family: poppins, sans-serif;
+}
+/* Start Utility */
+.btn-position-custom{
+    width: 50%;
+    margin-top: 40px;
+}
+.btn-custom-login{
+    background-color: #1AA7EC;
+    padding: 4px 28px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.btn-custom-login:hover{
+    background-color: #1171a1;;
+    color: #FFFFFF;
+}
+.btn-custom-buy{
+    position: relative;
+    background-color: #42CD00;
+    border: 2px solid #42CD00;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+    color: #000000;
+    margin-right: 40px;
+}
+.btn-custom-buy:hover{
+    font-size: 18px;
+    transition: all .4s ease-in-out;
+}
+.btn-custom-rent{
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #FFE600;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+    color: #FFE600;
+    margin-right: 40px;
+}
+.btn-custom-rent:hover{
+    background-color: rgba(0,0,0,0);
+    color: #FFE600;
+    font-size: 17px;
+    transition: all .4s ease-in-out;
+}
+.btn-custom-wishlist{
+    position: relative;
+    font-size: 16px;
+    padding: 0px;
+    background-color: rgba(0,0,0,0);
+    color: #ffe6007b;
+}
+.btn-custom-wishlist:hover{
+    background-color: rgba(0,0,0,0);
+    color: #FFE600;
+    transition: all .4s ease-in-out;
+}
+.material-position{
+    vertical-align: middle;
+}
+.material-symbols-outlined.md-36{
+    font-size: 24px;
+}
+/* End Utility */
+
+
+/* Start Navbar */
+.brand{
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 8px;
+}
+.navbar{
+    position: relative;
+    z-index: 2;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.nav-custom{
+    color: black !important;
+
+}
+.status-active{
+    color: #1AA7EC !important;
+    font-weight: 600;
+}
+.profil{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+.account{
+    font-size: 16px;
+    font-weight: 600;
+}
+.dropdown-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.navbar-nav{
+    font-weight: 500;
+    font-size: 16px;
+}
+.nav-item{
+    margin-left: 40px;
+}
+.underL:hover::after{
+    content: "";
+    display: block;
+    border-bottom: 3px solid #1AA7EC;
+    width: 50%;
+    margin: auto;
+    margin-bottom: -8px;
+}
+.searchBox{
+    margin-bottom: 0px;
+    border-radius: 15px;
+    height: 30px;
+    width: 250px;
+    margin-top: 5px;
+    font-size: 14px;
+    background-color: #EDEDED;
+}
+/* End Navbar */
+
+/* Start Carousel */
+.carousel-custom{
+    position: relative;
+    height: 100vh;
+    background-color: #000000;
+    overflow: hidden;
+}
+.img_position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+.carosel_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index: 1;
+}
+.carosel_content{
+    z-index: 1;
+}
+.carousel-content-custom{
+    width: 50%;    
+}
+.carousel-content-custom h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.carousel-content-custom p{
+    font-size:16px;
+    text-align: justify;
+}
+/*  End Carousel */
+
+/* Start Main */
+.header{
+    font-size: 28px;
+    font-weight: 600;
+}
+.movie-container{
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    gap: 2rem;
+}
+.box-wrapper{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 10px 0px 10px;
+    max-width: 200px;
+}
+.box-wrapper:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all .3s ease-in-out;
+}
+.box-wrapper-custom{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 10px 0px 10px;
+    max-width: 200px;
+}
+.box-img{
+    width: 100%;
+    height: 270px;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.box-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: #000000;
+}
+.box p{
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 8px;
+}
+.box .price{
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 16px;
+}
+/* End Main */
+
+
+/* Start Slider */
+.coming-container{
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.addWish {
+    margin-top: 24px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+}
+.addWish:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all .3s ease-in-out;
+    color: #000000;
+}
+.addWish p{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0px;
+}
+/* End Slider */
+
+/* Start Footer */
+.bg-footer{
+    background-color: #00527F;
+}
+.footer-content-custom h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.footer-content-custom p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: justify;
+    text-justify: inter-word;
+}
+/* End Footer */
+
+
+/* Start Transaction */
+.row-transaction{
+    vertical-align: middle;
+}
+.row-transaction h1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.row-transaction p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #888888;
+    text-align: justify;
+}
+.btn-display-transaction{
+    display: flex;
+}
+.btn-buy{
+    background-color: #42CD00;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+.btn-buy:hover{
+    background-color: #309700;
+    color: #FFFFFF;
+}
+.btn-rent{
+    background-color: #FFE600;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #00527F;
+    margin-right: 40px;
+}
+.btn-addWish-transaction{
+    font-size: 16px;
+    padding: 0px;
+    font-weight: 500;
+    color: #00527F;
+    padding: 5px 20px 5px 20px;
+}
+.btn-addWish-transaction:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all .3s ease-in-out;
+    color: #000000;
+    border-radius: 10px;
+}
+.img-transaction{
+    height: 450px;
+    border-radius: 10px;
+}
+/* End Transaction */
+
+/* Start Preview */
+.preview-content-custom{
+    width: 80%;
+}
+.btn-preview-position-custom{
+    width: 100%;
+    margin-top: 40px;
+}
+/* End Preview */
+
+/* Start Library */
+.box-wrapper-library{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 10px 0px 10px;
+    max-width: 200px;
+}
+.watch{
+    margin-top: 24px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #42CD00;
+}
+.watch:hover{
+    background-color: #309700;
+    transition: all .3s ease-in-out;
+}
+.watch p{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0px;
+}
+/* End Library */
+
+/* Start Search */
+.search{
+    font-size: 28px;
+    font-weight: 600;
+    color: #1AA7EC;
+}
+.movie-container-search{
+    min-width: 600px;
+}
+/* End Search */
+
+    /* Mobile Version */
+    @media (max-width: 575.98px) { 
+
+        /* Start Utility */
+        .btn-position-custom{
+            width: 70%;
+            margin-top: 40px;
+        }
+        .btn-custom-login{
+            background-color: #1AA7EC;
+            padding: 4px 28px;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #FFFFFF;
+        }
+        .btn-custom-login:hover{
+            background-color: #1171a1;;
+            color: #FFFFFF;
+        }
+        .btn-custom-buy{
+            position: relative;
+            background-color: #42CD00;
+            border: 2px solid #42CD00;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 6px 14px;
+            color: #000000;
+            margin-right: 16px;
+        }
+        .btn-custom-buy:hover{
+            font-size: 13px;
+            transition: all .4s ease-in-out;
+        }
+        .btn-custom-rent{
+            position: relative;
+            background-color: rgba(0,0,0,0);
+            border: 1.5px solid #FFE600;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 6px 14px;
+            color: #FFE600;
+            margin-right: 16px;
+        }
+        .btn-custom-rent:hover{
+            background-color: rgba(0,0,0,0);
+            color: #FFE600;
+            font-size: 13px;
+            transition: all .4s ease-in-out;
+        }
+        .material-symbols-outlined.md-36{
+            font-size: 24px;
+        }
+        .mobile-overflow{
+            display: none;
+        }
+        /* End Utility */
+
+        /* Start Navbar */
+        .brand{
+            font-weight: 600;
+            font-size: 20px;
+            margin-left: 8px;
+        }
+        .searchBox{
+            margin-bottom: 0px;
+            border-radius: 15px;
+            height: 20px;
+            width: 100%;
+            margin-top: 5px;
+            font-size: 12px;
+            background-color: #EDEDED;
+        }
+        .searchBox::placeholder{
+            font-size: 12px;
+        }
+        .underL:hover::after{
+            display: none;
+        }
+        .nav-link:hover{
+            color: #1AA7EC !important;
+        }
+        .nav-item{
+            font-size: 12px;
+        }
+        .dropdown-item{
+            font-size: 12px;
+        }
+        .profil{
+            font-size: 12px;
+            font-weight: 500;
+            margin-left: 12px;
+        }
+        .account{
+            font-size: 12px;
+            font-weight: 600;
+        }
+        /* End Navbar */
+
+        /* Start Carousel */
+        .carousel-custom{
+            position: relative;
+            height: 100vh;
+            background-color: #000000;
+            overflow: hidden;
+        }
+        .carosel_content{
+            margin-left: 20px;
+        }
+        .carousel-content-custom{
+            width: 70%;    
+        }
+        .carousel-content-custom h1{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .carousel-content-custom p{
+            font-size:14px;
+            text-align: justify;
+        }
+        /* End Carousel */
+
+
+        /* Start Footer */
+        .footer-position{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-content-custom h3{
+            font-size: 16px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        .footer-content-custom p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #FFFFFF;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        /* End Footer */
+
+        /* Start Transaction */
+        .row-transaction{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .row-transaction h1{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .row-transaction p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #888888;
+            text-align: justify;
+        }
+        .btn-display-transaction{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .btn-rent{
+            background-color: #FFE600;
+            padding: 5px 20px 5px 20px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #00527F;
+            margin-right: 40px;
+        }
+        .btn-addWish-transaction{
+            font-size: 14px;
+            padding: 0px;
+            font-weight: 500;
+            color: #00527F;
+            padding: 5px 20px 5px 20px;
+            
+        }
+        .btn-addWish-transaction:hover{
+            background-color: rgba(0, 0, 0, 0.1);
+            transition: all .3s ease-in-out;
+            color: #000000;
+            border-radius: 10px;
+        }
+        .img-transaction{
+            height: 350px;
+            border-radius: 10px;
+        }
+        .btn-buy{
+            background-color: #42CD00;
+            padding: 5px 20px 5px 20px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-right: 40px;
+        }
+        .btn-buy:hover{
+            background-color: #309700;
+            color: #FFFFFF;
+        }
+        /* End Transaction */
+    }
+
+            /* TABLET VERSION */
+            @media (max-width: 991.98px) {
+                /* Start Utility */
+                .btn-position-custom{
+                    width: 70%;
+                    margin-top: 40px;
+                }
+                .btn-custom-login{
+                    background-color: #1AA7EC;
+                    padding: 4px 28px;
+                    border-radius: 10px;
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: #FFFFFF;
+                }
+                .btn-custom-login:hover{
+                    background-color: #1171a1;;
+                    color: #FFFFFF;
+                }
+                .btn-custom-buy{
+                    position: relative;
+                    background-color: #42CD00;
+                    border: 2px solid #42CD00;
+                    border-radius: 10px;
+                    font-size: 12px;
+                    font-weight: 600;
+                    padding: 6px 14px;
+                    color: #000000;
+                    margin-right: 16px;
+                }
+                .btn-custom-buy:hover{
+                    font-size: 13px;
+                    transition: all .4s ease-in-out;
+                }
+                .btn-custom-rent{
+                    position: relative;
+                    background-color: rgba(0,0,0,0);
+                    border: 1.5px solid #FFE600;
+                    border-radius: 10px;
+                    font-size: 12px;
+                    font-weight: 600;
+                    padding: 6px 14px;
+                    color: #FFE600;
+                    margin-right: 16px;
+                }
+                .btn-custom-rent:hover{
+                    background-color: rgba(0,0,0,0);
+                    color: #FFE600;
+                    font-size: 13px;
+                    transition: all .4s ease-in-out;
+                }
+                .material-symbols-outlined.md-36{
+                    font-size: 24px;
+                }
+                .mobile-overflow{
+                    display: none;
+                }
+                /* End Utility */
+
+                /* Start Navbar */
+                .searchBox{
+                    margin-bottom: 8px;
+                    border-radius: 15px;
+                    height: 30px;
+                    width: 100%;
+                    margin-top: 5px;
+                    font-size: 14px;
+                    background-color: #EDEDED;
+                }
+                .underL:hover::after{
+                    display: none;
+                }
+                .nav-link:hover{
+                    color: #1AA7EC !important;
+                }
+                .nav-item{
+                    font-size: 14px;
+                }
+                .dropdown-item{
+                    font-size: 14px;
+                }
+                .profil{
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-left: 12px;
+                }
+                .account{
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+                /* End Navbar */
+
+                /* Start Footer */
+                .footer-position{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 30px;
+                }
+                .footer-content-custom h3{
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #FFFFFF;
+                    text-align: center;
+                }
+                .footer-content-custom p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                    text-align: justify;
+                    text-justify: inter-word;
+                }
+                /* End Footer */
+
+                /* Start Transaction */
+                .row-transaction{
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                }
+                .row-transaction h1{
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+                .row-transaction p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #888888;
+                    text-align: justify;
+                }
+                .btn-display-transaction{
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                }
+                .btn-rent{
+                    background-color: #FFE600;
+                    padding: 5px 20px 5px 20px;
+                    border-radius: 10px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #00527F;
+                    margin-right: 40px;
+                }
+                .btn-addWish-transaction{
+                    font-size: 16px;
+                    padding: 0px;
+                    font-weight: 500;
+                    color: #00527F;
+                    padding: 5px 20px 5px 20px;
+                    
+                }
+                .btn-addWish-transaction:hover{
+                    background-color: rgba(0, 0, 0, 0.1);
+                    transition: all .3s ease-in-out;
+                    color: #000000;
+                    border-radius: 10px;
+                }
+                .img-transaction{
+                    height: 400px;
+                    border-radius: 10px;
+                }
+                .btn-buy{
+                    background-color: #42CD00;
+                    padding: 5px 20px 5px 20px;
+                    border-radius: 10px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #FFFFFF;
+                    margin-right: 40px;
+                }
+                .btn-buy:hover{
+                    background-color: #309700;
+                    color: #FFFFFF;
+                }
+                /* End Transaction */
+            }
